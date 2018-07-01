@@ -18,7 +18,7 @@ const querystring = require('querystring');
 
 const mongoose = require('mongoose');
 
-const dbURI = 'mongodb://127.0.0.1/flightsDb';
+const dbURI = 'mongodb://127.0.0.1/evenement-web';
 
 mongoose.Promise = global.Promise;
 
